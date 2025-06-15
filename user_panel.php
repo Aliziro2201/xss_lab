@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" || $_COOKIE["user"] == "true"){
 
 
 
-    <form id="loginForm" class="form" action="." method="post">
+    <form id="loginForm" class="form" action="./user_panel.php" method="post">
                 <h2>Login</h2>
                 <label for="login-email">Email:</label>
                 <input type="email" id="login-email" name="login-email" required>
